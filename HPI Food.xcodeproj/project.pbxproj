@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A33CC15161EB89500D9EDF0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A33CC14161EB89500D9EDF0 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		6A33CC22161EBBEE00D9EDF0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A33CC21161EBBEE00D9EDF0 /* SystemConfiguration.framework */; };
+		6A33CC26161EBD3D00D9EDF0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A33CC25161EBD3D00D9EDF0 /* MBProgressHUD.m */; };
+		6A33CC33161EC89200D9EDF0 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A33CC2B161EC89200D9EDF0 /* blueArrow.png */; };
+		6A33CC34161EC89200D9EDF0 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A33CC2C161EC89200D9EDF0 /* blueArrow@2x.png */; };
+		6A33CC3B161EC89C00D9EDF0 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A33CC3A161EC89C00D9EDF0 /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		6A33CC3D161EC9A500D9EDF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A33CC3C161EC9A500D9EDF0 /* QuartzCore.framework */; };
+		6A33CC41161ECE8700D9EDF0 /* Defaults-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A33CC3E161ECE8700D9EDF0 /* Defaults-568h@2x.png */; };
+		6A33CC42161ECE8700D9EDF0 /* Defaults.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A33CC3F161ECE8700D9EDF0 /* Defaults.png */; };
+		6A33CC43161ECE8700D9EDF0 /* Defaults@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 6A33CC40161ECE8700D9EDF0 /* Defaults@2x.psd */; };
+		6A33CC4C161EE02000D9EDF0 /* SignikaNegative-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A33CC4B161EDF6300D9EDF0 /* SignikaNegative-Regular.ttf */; };
+		6A33CC57161EE56A00D9EDF0 /* separator in Resources */ = {isa = PBXBuildFile; fileRef = 6A33CC55161EE56A00D9EDF0 /* separator */; };
+		6A33CC58161EE56A00D9EDF0 /* separator@2x in Resources */ = {isa = PBXBuildFile; fileRef = 6A33CC56161EE56A00D9EDF0 /* separator@2x */; };
+		6A4AB97E16196E7F00E534D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4AB97D16196E7F00E534D6 /* UIKit.framework */; };
+		6A4AB98016196E7F00E534D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4AB97F16196E7F00E534D6 /* Foundation.framework */; };
+		6A4AB98216196E7F00E534D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4AB98116196E7F00E534D6 /* CoreGraphics.framework */; };
+		6A4AB98816196E7F00E534D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A4AB98616196E7F00E534D6 /* InfoPlist.strings */; };
+		6A4AB98A16196E7F00E534D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4AB98916196E7F00E534D6 /* main.m */; };
+		6A4AB98E16196E7F00E534D6 /* HPIFoodAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4AB98D16196E7F00E534D6 /* HPIFoodAppDelegate.m */; };
+		6A4AB99016196E7F00E534D6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A4AB98F16196E7F00E534D6 /* Default.png */; };
+		6A4AB99216196E7F00E534D6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A4AB99116196E7F00E534D6 /* Default@2x.png */; };
+		6A4AB99416196E7F00E534D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A4AB99316196E7F00E534D6 /* Default-568h@2x.png */; };
+		6A4AB99A16196E7F00E534D6 /* HPIFoodMensaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4AB99916196E7F00E534D6 /* HPIFoodMensaViewController.m */; };
+		6A9A9A92161975FF00C1C9EA /* HPIFoodListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4AB9B41619709700E534D6 /* HPIFoodListCell.m */; };
+		6AAF9378161DEC2D00DEC4DA /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF9370161DEC2C00DEC4DA /* Icon-72.png */; };
+		6AAF9379161DEC2D00DEC4DA /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF9371161DEC2C00DEC4DA /* Icon-72@2x.png */; };
+		6AAF937A161DEC2D00DEC4DA /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF9372161DEC2C00DEC4DA /* Icon-Small-50.png */; };
+		6AAF937B161DEC2D00DEC4DA /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF9373161DEC2C00DEC4DA /* Icon-Small.png */; };
+		6AAF937C161DEC2D00DEC4DA /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF9374161DEC2C00DEC4DA /* Icon-Small@2x.png */; };
+		6AAF937D161DEC2D00DEC4DA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF9375161DEC2C00DEC4DA /* Icon.png */; };
+		6AAF937E161DEC2D00DEC4DA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF9376161DEC2D00DEC4DA /* Icon@2x.png */; };
+		6AAF937F161DEC2D00DEC4DA /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF9377161DEC2D00DEC4DA /* iTunesArtwork */; };
+		6AE2985A161DB5E1002E488F /* Numans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AE29859161DB5E1002E488F /* Numans-Regular.ttf */; };
+		6AE29875161DBCD6002E488F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE29874161DBCD6002E488F /* Default.png */; };
+		6AE29877161DBCD9002E488F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE29876161DBCD9002E488F /* Default-568h@2x.png */; };
+		6AE29879161DBCDC002E488F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE29878161DBCDC002E488F /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A33CC13161EB89500D9EDF0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6A33CC14161EB89500D9EDF0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6A33CC1B161EBA2100D9EDF0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6A33CC21161EBBEE00D9EDF0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6A33CC24161EBD3D00D9EDF0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6A33CC25161EBD3D00D9EDF0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6A33CC2B161EC89200D9EDF0 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		6A33CC2C161EC89200D9EDF0 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		6A33CC39161EC89C00D9EDF0 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		6A33CC3A161EC89C00D9EDF0 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		6A33CC3C161EC9A500D9EDF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6A33CC3E161ECE8700D9EDF0 /* Defaults-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Defaults-568h@2x.png"; sourceTree = "<group>"; };
+		6A33CC3F161ECE8700D9EDF0 /* Defaults.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defaults.png; sourceTree = "<group>"; };
+		6A33CC40161ECE8700D9EDF0 /* Defaults@2x.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Defaults@2x.psd"; sourceTree = "<group>"; };
+		6A33CC4B161EDF6300D9EDF0 /* SignikaNegative-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SignikaNegative-Regular.ttf"; sourceTree = "<group>"; };
+		6A33CC55161EE56A00D9EDF0 /* separator */ = {isa = PBXFileReference; lastKnownFileType = file; path = separator; sourceTree = "<group>"; };
+		6A33CC56161EE56A00D9EDF0 /* separator@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "separator@2x"; sourceTree = "<group>"; };
+		6A4AB97916196E7F00E534D6 /* HPI Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HPI Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4AB97D16196E7F00E534D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A4AB97F16196E7F00E534D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A4AB98116196E7F00E534D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A4AB98516196E7F00E534D6 /* HPI Food-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HPI Food-Info.plist"; sourceTree = "<group>"; };
+		6A4AB98716196E7F00E534D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A4AB98916196E7F00E534D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A4AB98B16196E7F00E534D6 /* HPI Food-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HPI Food-Prefix.pch"; sourceTree = "<group>"; };
+		6A4AB98C16196E7F00E534D6 /* HPIFoodAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPIFoodAppDelegate.h; sourceTree = "<group>"; };
+		6A4AB98D16196E7F00E534D6 /* HPIFoodAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPIFoodAppDelegate.m; sourceTree = "<group>"; };
+		6A4AB98F16196E7F00E534D6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6A4AB99116196E7F00E534D6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6A4AB99316196E7F00E534D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6A4AB99816196E7F00E534D6 /* HPIFoodMensaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPIFoodMensaViewController.h; sourceTree = "<group>"; };
+		6A4AB99916196E7F00E534D6 /* HPIFoodMensaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPIFoodMensaViewController.m; sourceTree = "<group>"; };
+		6A4AB9B31619709700E534D6 /* HPIFoodListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPIFoodListCell.h; sourceTree = "<group>"; };
+		6A4AB9B41619709700E534D6 /* HPIFoodListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPIFoodListCell.m; sourceTree = "<group>"; };
+		6AAF9370161DEC2C00DEC4DA /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		6AAF9371161DEC2C00DEC4DA /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		6AAF9372161DEC2C00DEC4DA /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		6AAF9373161DEC2C00DEC4DA /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		6AAF9374161DEC2C00DEC4DA /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		6AAF9375161DEC2C00DEC4DA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6AAF9376161DEC2D00DEC4DA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		6AAF9377161DEC2D00DEC4DA /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		6AE29859161DB5E1002E488F /* Numans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Numans-Regular.ttf"; sourceTree = "<group>"; };
+		6AE29874161DBCD6002E488F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6AE29876161DBCD9002E488F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6AE29878161DBCDC002E488F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A4AB97616196E7F00E534D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A33CC3D161EC9A500D9EDF0 /* QuartzCore.framework in Frameworks */,
+				6A33CC22161EBBEE00D9EDF0 /* SystemConfiguration.framework in Frameworks */,
+				6A4AB98216196E7F00E534D6 /* CoreGraphics.framework in Frameworks */,
+				6A4AB97E16196E7F00E534D6 /* UIKit.framework in Frameworks */,
+				6A4AB98016196E7F00E534D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A33CC11161EB88A00D9EDF0 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				6A33CC13161EB89500D9EDF0 /* Reachability.h */,
+				6A33CC14161EB89500D9EDF0 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		6A33CC23161EBD3200D9EDF0 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				6A33CC24161EBD3D00D9EDF0 /* MBProgressHUD.h */,
+				6A33CC25161EBD3D00D9EDF0 /* MBProgressHUD.m */,
+			);
+			name = HUD;
+			sourceTree = "<group>";
+		};
+		6A33CC27161EC87600D9EDF0 /* EGOTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				6A33CC39161EC89C00D9EDF0 /* EGORefreshTableHeaderView.h */,
+				6A33CC3A161EC89C00D9EDF0 /* EGORefreshTableHeaderView.m */,
+			);
+			name = EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
+		6A33CC28161EC89200D9EDF0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A33CC2B161EC89200D9EDF0 /* blueArrow.png */,
+				6A33CC2C161EC89200D9EDF0 /* blueArrow@2x.png */,
+				6A33CC55161EE56A00D9EDF0 /* separator */,
+				6A33CC56161EE56A00D9EDF0 /* separator@2x */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6A4AB96E16196E7F00E534D6 = {
+			isa = PBXGroup;
+			children = (
+				6A33CC3C161EC9A500D9EDF0 /* QuartzCore.framework */,
+				6A33CC21161EBBEE00D9EDF0 /* SystemConfiguration.framework */,
+				6A33CC1B161EBA2100D9EDF0 /* CFNetwork.framework */,
+				6AE29878161DBCDC002E488F /* Default@2x.png */,
+				6AE29876161DBCD9002E488F /* Default-568h@2x.png */,
+				6AAF9370161DEC2C00DEC4DA /* Icon-72.png */,
+				6AAF9371161DEC2C00DEC4DA /* Icon-72@2x.png */,
+				6AAF9372161DEC2C00DEC4DA /* Icon-Small-50.png */,
+				6AAF9373161DEC2C00DEC4DA /* Icon-Small.png */,
+				6AAF9374161DEC2C00DEC4DA /* Icon-Small@2x.png */,
+				6AAF9375161DEC2C00DEC4DA /* Icon.png */,
+				6AAF9376161DEC2D00DEC4DA /* Icon@2x.png */,
+				6AAF9377161DEC2D00DEC4DA /* iTunesArtwork */,
+				6AE29874161DBCD6002E488F /* Default.png */,
+				6A33CC3E161ECE8700D9EDF0 /* Defaults-568h@2x.png */,
+				6A33CC3F161ECE8700D9EDF0 /* Defaults.png */,
+				6A33CC40161ECE8700D9EDF0 /* Defaults@2x.psd */,
+				6A4AB98316196E7F00E534D6 /* HPI Food */,
+				6A4AB97C16196E7F00E534D6 /* Frameworks */,
+				6A4AB97A16196E7F00E534D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A4AB97A16196E7F00E534D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A4AB97916196E7F00E534D6 /* HPI Food.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A4AB97C16196E7F00E534D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A4AB97D16196E7F00E534D6 /* UIKit.framework */,
+				6A4AB97F16196E7F00E534D6 /* Foundation.framework */,
+				6A4AB98116196E7F00E534D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A4AB98316196E7F00E534D6 /* HPI Food */ = {
+			isa = PBXGroup;
+			children = (
+				6A33CC27161EC87600D9EDF0 /* EGOTableViewPullRefresh */,
+				6A33CC23161EBD3200D9EDF0 /* HUD */,
+				6A33CC11161EB88A00D9EDF0 /* Reachability */,
+				6A4AB98C16196E7F00E534D6 /* HPIFoodAppDelegate.h */,
+				6A4AB98D16196E7F00E534D6 /* HPIFoodAppDelegate.m */,
+				6A4AB99816196E7F00E534D6 /* HPIFoodMensaViewController.h */,
+				6A4AB99916196E7F00E534D6 /* HPIFoodMensaViewController.m */,
+				6A4AB9B31619709700E534D6 /* HPIFoodListCell.h */,
+				6A4AB9B41619709700E534D6 /* HPIFoodListCell.m */,
+				6A4AB98416196E7F00E534D6 /* Supporting Files */,
+			);
+			path = "HPI Food";
+			sourceTree = "<group>";
+		};
+		6A4AB98416196E7F00E534D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A33CC28161EC89200D9EDF0 /* Resources */,
+				6AE29859161DB5E1002E488F /* Numans-Regular.ttf */,
+				6A33CC4B161EDF6300D9EDF0 /* SignikaNegative-Regular.ttf */,
+				6A4AB98516196E7F00E534D6 /* HPI Food-Info.plist */,
+				6A4AB98616196E7F00E534D6 /* InfoPlist.strings */,
+				6A4AB98916196E7F00E534D6 /* main.m */,
+				6A4AB98B16196E7F00E534D6 /* HPI Food-Prefix.pch */,
+				6A4AB98F16196E7F00E534D6 /* Default.png */,
+				6A4AB99116196E7F00E534D6 /* Default@2x.png */,
+				6A4AB99316196E7F00E534D6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A4AB97816196E7F00E534D6 /* HPI Food */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4AB9A816196E8000E534D6 /* Build configuration list for PBXNativeTarget "HPI Food" */;
+			buildPhases = (
+				6A4AB97516196E7F00E534D6 /* Sources */,
+				6A4AB97616196E7F00E534D6 /* Frameworks */,
+				6A4AB97716196E7F00E534D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HPI Food";
+			productName = "HPI Food";
+			productReference = 6A4AB97916196E7F00E534D6 /* HPI Food.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A4AB97016196E7F00E534D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HPIFood;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Carl Ambroselli";
+			};
+			buildConfigurationList = 6A4AB97316196E7F00E534D6 /* Build configuration list for PBXProject "HPI Food" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A4AB96E16196E7F00E534D6;
+			productRefGroup = 6A4AB97A16196E7F00E534D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A4AB97816196E7F00E534D6 /* HPI Food */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A4AB97716196E7F00E534D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4AB98816196E7F00E534D6 /* InfoPlist.strings in Resources */,
+				6A4AB99016196E7F00E534D6 /* Default.png in Resources */,
+				6A4AB99216196E7F00E534D6 /* Default@2x.png in Resources */,
+				6A4AB99416196E7F00E534D6 /* Default-568h@2x.png in Resources */,
+				6AE2985A161DB5E1002E488F /* Numans-Regular.ttf in Resources */,
+				6AE29875161DBCD6002E488F /* Default.png in Resources */,
+				6AE29877161DBCD9002E488F /* Default-568h@2x.png in Resources */,
+				6AE29879161DBCDC002E488F /* Default@2x.png in Resources */,
+				6AAF9378161DEC2D00DEC4DA /* Icon-72.png in Resources */,
+				6AAF9379161DEC2D00DEC4DA /* Icon-72@2x.png in Resources */,
+				6AAF937A161DEC2D00DEC4DA /* Icon-Small-50.png in Resources */,
+				6AAF937B161DEC2D00DEC4DA /* Icon-Small.png in Resources */,
+				6AAF937C161DEC2D00DEC4DA /* Icon-Small@2x.png in Resources */,
+				6AAF937D161DEC2D00DEC4DA /* Icon.png in Resources */,
+				6AAF937E161DEC2D00DEC4DA /* Icon@2x.png in Resources */,
+				6AAF937F161DEC2D00DEC4DA /* iTunesArtwork in Resources */,
+				6A33CC33161EC89200D9EDF0 /* blueArrow.png in Resources */,
+				6A33CC34161EC89200D9EDF0 /* blueArrow@2x.png in Resources */,
+				6A33CC41161ECE8700D9EDF0 /* Defaults-568h@2x.png in Resources */,
+				6A33CC42161ECE8700D9EDF0 /* Defaults.png in Resources */,
+				6A33CC4C161EE02000D9EDF0 /* SignikaNegative-Regular.ttf in Resources */,
+				6A33CC43161ECE8700D9EDF0 /* Defaults@2x.psd in Resources */,
+				6A33CC57161EE56A00D9EDF0 /* separator in Resources */,
+				6A33CC58161EE56A00D9EDF0 /* separator@2x in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A4AB97516196E7F00E534D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4AB98A16196E7F00E534D6 /* main.m in Sources */,
+				6A4AB98E16196E7F00E534D6 /* HPIFoodAppDelegate.m in Sources */,
+				6A4AB99A16196E7F00E534D6 /* HPIFoodMensaViewController.m in Sources */,
+				6A9A9A92161975FF00C1C9EA /* HPIFoodListCell.m in Sources */,
+				6A33CC15161EB89500D9EDF0 /* Reachability.m in Sources */,
+				6A33CC26161EBD3D00D9EDF0 /* MBProgressHUD.m in Sources */,
+				6A33CC3B161EC89C00D9EDF0 /* EGORefreshTableHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A4AB98616196E7F00E534D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A4AB98716196E7F00E534D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A4AB9A616196E8000E534D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Carl Ambroselli (Z3Y4J99MUV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carl Ambroselli (Z3Y4J99MUV)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = Mensa;
+				PROVISIONING_PROFILE = "3D4AD105-604D-4274-8B79-86B33210ACB3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3D4AD105-604D-4274-8B79-86B33210ACB3";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A4AB9A716196E8000E534D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Carl Ambroselli";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Carl Ambroselli";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = Mensa;
+				PROVISIONING_PROFILE = "D51643FB-63AE-486C-90D8-F1C4817939E6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D51643FB-63AE-486C-90D8-F1C4817939E6";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A4AB9A916196E8000E534D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPI Food/HPI Food-Prefix.pch";
+				INFOPLIST_FILE = "HPI Food/HPI Food-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A4AB9AA16196E8000E534D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPI Food/HPI Food-Prefix.pch";
+				INFOPLIST_FILE = "HPI Food/HPI Food-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A4AB97316196E7F00E534D6 /* Build configuration list for PBXProject "HPI Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4AB9A616196E8000E534D6 /* Debug */,
+				6A4AB9A716196E8000E534D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4AB9A816196E8000E534D6 /* Build configuration list for PBXNativeTarget "HPI Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4AB9A916196E8000E534D6 /* Debug */,
+				6A4AB9AA16196E8000E534D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A4AB97016196E7F00E534D6 /* Project object */;
+}
